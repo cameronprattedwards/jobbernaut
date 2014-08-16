@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/cameronprattedwards/jobbernaut",
   "devDependencies": {
-    "gulp": "~3.8.7"
+    "gulp": "~3.8.7",
+    "jshint": "~2.5.3"
   }
 }
