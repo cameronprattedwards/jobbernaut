@@ -1,0 +1,24 @@
+{
+  "name": "jobbernaut",
+  "version": "0.0.0",
+  "description": "A job prospect tracking app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cameronprattedwards/jobbernaut.git"
+  },
+  "keywords": [
+    "job",
+    "prospect",
+    "tracker"
+  ],
+  "author": "David Edwards and Cameron Edwards",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cameronprattedwards/jobbernaut/issues"
+  },
+  "homepage": "https://github.com/cameronprattedwards/jobbernaut"
+}
