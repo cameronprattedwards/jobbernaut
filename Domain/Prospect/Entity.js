@@ -1,4 +1,4 @@
-define([], function () {
+define(["graphjs/Collection", "Domain/Interview/Entity"], function (Collection, Interview) {
 	function Prospect() {}
 
 	Prospect.scheme = {
@@ -11,7 +11,8 @@ define([], function () {
 		appFollowedUp: Boolean,
 		thankYouSent: Boolean,
 		jobOffered: Boolean,
-		state: String
+		state: String,
+		interviews: Collection(Interview)
 	};
 
 	return Prospect;
