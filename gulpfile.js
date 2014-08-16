@@ -9,5 +9,6 @@ gulp.task("jshint", function () {
 			"./Utils/**.*.js"
 		])
 		.pipe(jshint())
-		.pipe(jshint.reporter('default'));
+		.pipe(jshint.reporter("default"))
+		.pipe(jshint.reporter("fail"));
 });
