@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/cameronprattedwards/jobbernaut/issues"
   },
-  "homepage": "https://github.com/cameronprattedwards/jobbernaut"
+  "homepage": "https://github.com/cameronprattedwards/jobbernaut",
+  "devDependencies": {
+    "gulp": "~3.8.7"
+  }
 }
